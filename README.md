@@ -7,5 +7,6 @@ Multiuser Autentication is implemented using Json Web Token and Spring Security.
 Keword based Searching and Sorting of Blogs are implemnted along with proper pagination.
 The RestAPIs are tested using Postman Tool.
 The backend is deployed on AWS using AWS BeanStalk service and AWS RDS service for the database connectivity.
-Tools & Technologies: AWS, Spring Boot, Spring Rest, Spring MVC, JPA, JWT, Spring Security, PostGreSQL, Postman
+Used CI/CD pipeline using jenkins for automating the process of development.
+Tools & Technologies: AWS, Spring Boot, Spring Rest, Spring MVC, JPA, JWT, Spring Security, PostGreSQL, Postman, Git, Jenkins
 
