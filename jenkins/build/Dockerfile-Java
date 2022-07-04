@@ -1,0 +1,10 @@
+FROM openjdk:8-jre-alpine
+
+#create a folder named app in inside openjdk container
+RUN mkdir /app
+
+#copy the jar file from host machine to container inside app folder
+COPY *.jar /app/app.jar
+
+#run the jar file inside the container
+CMD java -jar /app/app.jar

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+  #we have to define the BUILD_TAG env variable before building this file, for that type 'export BUILD_TAG=1' in terminal
+    image: "maven-project:$BUILD_TAG"
+    build:
+      context: .
+      dockerfile: Dockerfile-Java
